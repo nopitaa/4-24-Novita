@@ -17,7 +17,11 @@
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li class="has-sub">
+<<<<<<< HEAD
                             <a class="js-arrow" href="#">
+=======
+                            <a href="#">
+>>>>>>> e722aa0 (Porofolio Laravel)
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>

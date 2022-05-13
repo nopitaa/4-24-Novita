@@ -51,7 +51,11 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
+<<<<<<< HEAD
                         <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+=======
+                        <p>Copyright © 2022 Nopi. All rights reserved. </p> 
+>>>>>>> e722aa0 (Porofolio Laravel)
                     </div>
                 </div>
             </div>

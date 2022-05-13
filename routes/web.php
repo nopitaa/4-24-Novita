@@ -29,13 +29,30 @@ Route::get('/about', function () {
 });
 Route::get('/gallery', function () {
     return view('gallery', [
-        "title" => "Gallery"
+        "title" => "Gallery",
+        "lahir"=>"16 November 2004",
+        "kota"=>"Purwokerto, Banyumas, Jawa Tengah",
+        "hp"=>"+6281 229 555 381",
+        "nama" => " I am Novita ",
+        "email"=> " novitasyahwahapsari@gmail.com",
+        "gambar" => "aboutme.jpeg",
+        "isi"=>"Hello my name is Novita Syahwa Tri Hapsari usually called Novita.
+                I'm at SMK Telkom Purwokerto. There I majored in Software Engineering, 
+                which studied various digital technologies"
+    ]); 
+});
+Route::get('/gallery', function () {
+    return view('gallery', [
+        "title" => "Gallery",
+    
     ]);
 });
 // Route::resource('/contact', ContactController::class);
 route::get('contact/create', [ContactController::class, 'create'])->name('contact.create');
 route::post('contact/store', [ContactController::class, 'store'])->name('contacts.store');
 
+
+Route::resource('myprojects', ProjectController::class);
 
 Auth::routes();
 Route::group(['middleware' => ['auth']], function () {

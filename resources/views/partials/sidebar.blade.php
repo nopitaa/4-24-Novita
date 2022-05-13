@@ -14,6 +14,7 @@
                         <li>
                             <a href="index.html">Dashboard 1</a>
                         </li>
+<<<<<<< HEAD
                         <li>
                             <a href="index2.html">Dashboard 2</a>
                         </li>
@@ -23,10 +24,13 @@
                         <li>
                             <a href="index4.html">Dashboard 4</a>
                         </li>
+=======
+>>>>>>> e722aa0 (Porofolio Laravel)
                     </ul>
                 </li>
                 <li>
                     <a href="{{ route('contact.index') }}">
+<<<<<<< HEAD
                         <i class="fas fa-chart-bar"></i>Data Contact Us</a>
                 </li>
                 <li>
@@ -98,6 +102,17 @@
                             <a href="typo.html">Typography</a>
                         </li>
                     </ul>
+=======
+                        <i class="fas fa-table"></i>Data Contact Us</a>
+                </li>
+                <li>
+                    <a href="table.html">
+                        <i class="fas fa-chart-bar"></i>About</a>
+                </li>
+                <li>
+                    <a href="{{ route('myprojects.index') }}">
+                        <i class="fas fa-copy"></i>My Project</a>
+>>>>>>> e722aa0 (Porofolio Laravel)
                 </li>
             </ul>
         </nav>
